@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    
+</head>
+    
+<body>
+
+<style>     
+       .dot {
+           
+position: relative;
+left: 97px;
+top: 40px;
+z-index: 10px;
+height: 100px;
+width: 100px;
+animation-name: bigcircle;
+animation-duration: 6s;
+background-color: rgba(186, 23, 23, 0.37);
+border-radius: 50%;
+display: inline-block;
+    }
+    
+     @keyframes bigcircle {
+        
+         0% {left:0px;}
+         25% {left 10px;}
+         50% {left 10px;}
+         75% {left 10px;}
+         100% {left 10px;}
+    }
+    
+    
+     .dot2 {
+                 
+position:relative;
+left: 40px;
+top: 0px;
+z-index: -10px;
+  height: 10px;
+  width: 10px;
+animation-name: smallcircle;
+animation-duration: 6s;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+  display: inline-block;
+}
+    
+    
+    @keyframes smallcircle {
+        
+        0% {left:0px;}
+        25% {left 10px;}
+        50% {left 10px;}
+        75% {left 10px;}
+        100% {left 10px;}
+    }   
+           
+</style>
+    
+
+</body>
+    
+<div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot2"></span>
+</div>
+    
+</html>
+
+
